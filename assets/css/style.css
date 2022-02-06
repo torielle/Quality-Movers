@@ -12,7 +12,7 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 	font-size: 20px;
-	color: white;
+	color: antiquewhite;
 	line-height: 34px;
 }
 h1 {
@@ -63,7 +63,7 @@ img {
 }
 #aboutSection {
 	background: white;
-	color: rgba(18,104,114,1);
+	color: #595451;
 }
 #phoneIcon {
 	max-height: 50px;
@@ -93,7 +93,8 @@ img {
 	text-align: center;
 }
 #contactSection {
-	background: linear-gradient(rgba(8,104,97,1.00), rgba(11,135,125,1));
+	background: #66665c;
+	color: white;
 	text-align: center;
 }
 #contactLogo, #modalLogo {
@@ -135,8 +136,8 @@ img {
 
 .navbar {
 	margin-bottom: 0;
-	padding-top: 0;
-	background: linear-gradient(rgb(255, 255, 255), rgb(211, 211, 211));
+	padding: 13px 0 13px 0;
+	background: #900;
 	border: 0;
 	-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
@@ -154,7 +155,7 @@ ul.navbar-nav {
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { background: none; color: rgba(5,70,65,1.00) !important; border: 0; }
+ul.navbar-nav li a { background: none; color: #FCFEFF !important; border: 0; }
 #quoteButton { color: white !important}
 ul.navbar-nav li a:hover { background: none; color: #aaa; border: 0; }
 ul.navbar-nav li a:focus { background: none; color: #aaa; outline: 0; border: 0; }
@@ -165,13 +166,13 @@ ul.navbar-nav li a.btn-link-3 {
 	display: inline-block;
 	margin: 9px 0 0 15px;
 	padding: 6px 15px;
-	background: #6eba3c;
+	background: #ffcc00;
 	border: 0;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 	font-size: 14px;
 	font-weight: 300;
-	color: #fff;
+	color: #FCFEFF;
 	text-transform: uppercase;
 	-moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
@@ -181,7 +182,7 @@ ul.navbar-nav li a.btn-link-3:active,
 ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #63a736; color: #fff; }
 
 .navbar-brand {
-	width: 102px;
+	width: 135px;
 	background: url(../images/icons/logo.png) left center no-repeat;
 	text-indent: -99999px;
 }
@@ -197,7 +198,7 @@ ul#servicesItems {
 }
 ul#servicesItems > li {
 	list-style-type: none;
-	background-color: rgba(24,194,156,.8);
+	background-color: #F2B705;
 	margin: 4px auto;
 	padding: .5em;
 	border-radius: 8px;
