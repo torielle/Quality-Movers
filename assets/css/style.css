@@ -12,7 +12,7 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 	font-size: 20px;
-	color: antiquewhite;
+	color: white;
 	line-height: 34px;
 }
 h1 {
@@ -45,13 +45,19 @@ img {
 
 /*========= ID's ==========*/
 #title {
-	background-color: rgba(0, 0, 0, .45);
-	color: white;
+	color: #ffcc00;
+	text-shadow: 1px 1px 1px #313233;
 	width: 100%;
 	margin: 0 auto;
 	height: 100%;
 	padding-top: 150px;
 }
+
+.fadeInUpBig {
+	color: white;
+	opacity: 0.6;
+}
+
 #home {
 	background: transparent;
 	height: 70vh;
@@ -63,7 +69,8 @@ img {
 }
 #aboutSection {
 	background: white;
-	color: #595451;
+	color: #313233;
+	margin-top: 20px;
 }
 #phoneIcon {
 	max-height: 50px;
@@ -93,7 +100,7 @@ img {
 	text-align: center;
 }
 #contactSection {
-	background: #66665c;
+	background: #313233;
 	color: white;
 	text-align: center;
 }
@@ -113,6 +120,8 @@ img {
 .parallax-window {
 	background: transparent;
 }
+
+
 .container-fluid {
 	overflow: hidden;
 }
@@ -131,12 +140,31 @@ img {
 	max-height: 100px;
 }
 
+.recount {
+	font-weight: bold;
+	color: #ffcc00;
+	padding-bottom: 1em;
+}
 
+.price {
+	font-weight: bold;
+}
+
+.price .yellow {
+	color: #3aa6d3;
+	font-size: larger;
+}
+
+.serviceable {
+	list-style: none;
+	color: #313233;
+	opacity: 0.9;
+}
 /*=========Nav Bar==========*/
 
 .navbar {
 	margin-bottom: 0;
-	padding: 13px 0 13px 0;
+	padding: 10px 0 10px 0;
 	background: #900;
 	border: 0;
 	-moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
@@ -144,6 +172,11 @@ img {
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+.contacting {
+	margin-left: 15px;
+	font-size: 14px;
+	color: white;
 }
 
 ul.navbar-nav {
@@ -179,7 +212,7 @@ ul.navbar-nav li a.btn-link-3 {
 ul.navbar-nav li a.btn-link-3:hover,
 ul.navbar-nav li a.btn-link-3:focus,
 ul.navbar-nav li a.btn-link-3:active,
-ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #63a736; color: #fff; }
+ul.navbar-nav li a.btn-link-3:active:focus { outline: 0; background: #313233; color: #fff; }
 
 .navbar-brand {
 	width: 135px;
