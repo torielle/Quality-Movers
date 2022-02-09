@@ -100,10 +100,14 @@ img {
 	text-align: center;
 }
 #contactSection {
-	background: #313233;
-	color: white;
+	background: -webkit-linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 204, 0));
+	background: -moz-linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 204, 0));
+	background: linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 204, 0));
+	color: #313233;
 	text-align: center;
+	margin-top: 50px;
 }
+
 #contactLogo, #modalLogo {
 	max-height: 120px;
 }
@@ -143,6 +147,7 @@ img {
 .recount {
 	font-weight: bold;
 	color: #313233;
+	background-color: #ffcc00;
 }
 
 .LDcount {
@@ -152,7 +157,7 @@ img {
 }
 
 .price .yellow {
-	color: #3aa6d3;
+	color: #5cb85c;
 	font-weight: bold;
 	font-size: larger;
 }
@@ -161,9 +166,7 @@ img {
 	list-style-type: none;
 	margin: 4px auto;
 	padding: .5em;
-	border-bottom: 2px solid #ffcc00;
-	border-radius: 8px;
-	width: 30%;
+	width: 50%;
 	height: 100%;
 	text-align: center;
 	font-size: 18px;
@@ -173,6 +176,11 @@ img {
 	flex-direction: column;
 	flex-wrap: wrap;
 	color: #313233;
+}
+
+.serviceable > li:first-child {
+	border-top: 2px solid #ffcc00;
+	padding-top: 25px;
 }
 
 .LDsection {
