@@ -29,6 +29,16 @@
 			scrollTop: $("#servicesSection").offset().top - offset},
 			'slow');
 		});
+
+		$("#priceButton").click(function(e) {
+			e.preventDefault();
+			var offset = 0;
+			var target = this.hash;
+			if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+			$('html,body').animate({
+					scrollTop: $("#priceSection").offset().top - offset},
+				'slow');
+		});
 			
 		$("#contactButton").click(function(e) {
 			e.preventDefault();
