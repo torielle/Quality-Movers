@@ -4,8 +4,8 @@
 /*========= General Styling ==========*/
 html,body { 
 	height: 100%; 
-	margin: 0px; 
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	max-width: 100%;
 }
 body {
@@ -64,15 +64,21 @@ img {
 	display: flex;
 	align-items: center;
 }
-#aboutSection, #servicesWrap, #contactSection, #priceSection {
-	padding-top: 20px;
-	padding-bottom: 20px;
+#aboutSection, #servicesWrap, #contactSection, #priceSection, #tipsSection, #LdSection {
+	padding: 20px;
 }
-#aboutSection, #priceSection {
+#aboutSection, #LdSection {
 	background: white;
 	color: #22313F;
 	margin-top: 20px;
 }
+
+#priceSection {
+	background: white;
+	color: #22313F;
+	margin: 20px auto;
+}
+
 #phoneIcon {
 	max-height: 50px;
 	margin-top: 20px;
@@ -109,9 +115,8 @@ img {
 
 #tipsSection {
 	color: #22313F;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	padding: 50px;
+	margin: 50px 20px;
+	padding: 50px 50px 50px 100px;
 }
 
 #contactLogo, #modalLogo {
@@ -156,45 +161,21 @@ img {
 	background-color: #ffcc00;
 }
 
-.LDcount {
+.LdRed {
 	font-weight: bold;
 	color: #900;
 	text-transform: uppercase;
 }
 
-.price .yellow {
-	color: #5cb85c;
-	font-weight: bold;
-	font-size: larger;
-}
-
 .serviceable > li {
 	list-style-type: none;
-	margin: 4px auto;
-	padding: .5em;
-	width: 50%;
-	height: 100%;
-	text-align: center;
 	font-size: 18px;
 	font-weight: bolder;
 	line-height: 26px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	color: #313233;
 }
 
-.serviceable > li:first-child {
-	border-top: 2px solid #ffcc00;
-	padding-top: 25px;
-}
-
-.LDsection {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.clearfix {
+.contacts {
 	padding: 100px auto 100px auto;
 }
 
