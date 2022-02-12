@@ -107,6 +107,13 @@ img {
 	margin-top: 50px;
 }
 
+#tipsSection {
+	color: #22313F;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
 #contactLogo, #modalLogo {
 	max-height: 120px;
 }
@@ -189,6 +196,23 @@ img {
 
 .clearfix {
 	padding: 100px auto 100px auto;
+}
+
+
+.tips-section > h2 {
+	color: #ffcc00;
+}
+
+.tips-section > p {
+	color: #900;
+	font-size: larger;
+	font-weight: bolder;
+	padding-top: 10px;
+}
+
+.list-tips {
+	font-size: 18px;
+	line-height: 28px;
 }
 
 /*=========Nav Bar==========*/

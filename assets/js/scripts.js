@@ -39,6 +39,16 @@
 					scrollTop: $("#priceSection").offset().top - offset},
 				'slow');
 		});
+
+		$("#tipsButton").click(function(e) {
+			e.preventDefault();
+			var offset = 0;
+			var target = this.hash;
+			if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+			$('html,body').animate({
+					scrollTop: $("#tipsSection").offset().top - offset},
+				'slow');
+		});
 			
 		$("#contactButton").click(function(e) {
 			e.preventDefault();
