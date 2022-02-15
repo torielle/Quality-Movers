@@ -64,10 +64,10 @@ img {
 	display: flex;
 	align-items: center;
 }
-#aboutSection, #servicesWrap, #contactSection, #priceSection, #tipsSection, #LdSection {
+#aboutSection, #servicesWrap, #contactSection, #priceSection, #tipsSection {
 	padding: 20px;
 }
-#aboutSection, #LdSection {
+#aboutSection {
 	background: white;
 	color: #22313F;
 	margin-top: 20px;
@@ -77,6 +77,7 @@ img {
 	background: white;
 	color: #22313F;
 	margin: 20px auto;
+	padding: 20px 100px 20px 100px;
 }
 
 #phoneIcon {
@@ -161,20 +162,6 @@ img {
 	background-color: #ffcc00;
 }
 
-.LdRed {
-	font-weight: bold;
-	color: #900;
-	text-transform: uppercase;
-}
-
-.serviceable > li {
-	list-style-type: none;
-	font-size: 18px;
-	font-weight: bolder;
-	line-height: 26px;
-	color: #313233;
-}
-
 .contacts {
 	padding: 100px auto 100px auto;
 }
@@ -194,6 +181,54 @@ img {
 .list-tips {
 	font-size: 18px;
 	line-height: 28px;
+}
+
+.prices p {
+	font-weight: bold;
+	color: #900;
+}
+
+.prices li {
+	text-align: justify;
+}
+
+.prices ul > li, .LdSection ul > li {
+	list-style: none;
+}
+
+.serviceable li {
+	list-style-type: none;
+	font-weight: bolder;
+	text-align: left;
+}
+
+.serviceable li:first-child {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.green {
+	color: #019875;
+	font-weight: bold;
+}
+
+.LdSection {
+	text-align: justify;
+}
+
+.LdSection p:first-child {
+	text-transform: uppercase;
+	color: #019875;
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+}
+
+.LdSection p:nth-child(2) {
+	color: #900;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 /*=========Nav Bar==========*/
