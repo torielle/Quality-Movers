@@ -89,7 +89,7 @@ img {
 	margin: 20px 0 10px;
 	display: inline-block;
 }
-#servicesSection{
+#servicesSection {
 	background: url("../images/movers2.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -106,17 +106,20 @@ img {
 #servicesList {
 	text-align: center;
 }
-#contactSection {
-	background: #f9bf3b;
-	color: #22313F;
-	text-align: center;
-	margin-top: 50px;
-}
 
 #tipsSection {
-	color: #22313F;
-	margin: 50px 20px;
-	padding: 50px 50px 50px 100px;
+	color: white;
+	background: url("../images/pre-contact.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#tipsWrap {
+	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3,23,39,.3));
+	overflow: auto;
+	padding: 20px;
 }
 
 #contactLogo, #modalLogo {
@@ -125,8 +128,6 @@ img {
 #submitButton {
 	padding-bottom: 30px;
 }
-
-
 
 /*========= Classes ==========*/
 .parallax-container, .parallax img {
@@ -161,17 +162,17 @@ img {
 	background-color: #ffcc00;
 }
 
-.contacts {
-	padding: 100px auto 100px auto;
+.tips-section {
+	text-align: justify;
+	padding-left: 50px;
 }
-
 
 .tips-section > h2 {
 	color: #ffcc00;
 }
 
 .tips-section > p {
-	color: #900;
+	color: #ffcc00;
 	font-size: larger;
 	font-weight: bolder;
 	padding-top: 10px;
@@ -229,6 +230,7 @@ img {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 
 /*=========Nav Bar==========*/
 
