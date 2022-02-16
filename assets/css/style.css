@@ -109,7 +109,7 @@ img {
 
 #tipsSection {
 	color: white;
-	background: url("../images/pre-contact.jpg") no-repeat center center fixed;
+	background: url("../images/tips.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -117,7 +117,7 @@ img {
 }
 
 #tipsWrap {
-	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3,23,39,.3));
+	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3, 23, 39, 0.3));
 	overflow: auto;
 	padding: 20px;
 }
@@ -213,7 +213,7 @@ img {
 }
 
 .LdSection {
-	text-align: justify;
+	text-align: left;
 }
 
 .LdSection p:first-child {
