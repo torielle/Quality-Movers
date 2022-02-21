@@ -231,6 +231,31 @@ img {
 	padding-bottom: 20px;
 }
 
+.formSection {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 200px;
+}
+
+.contacts {
+	color: #22313F;
+	position: relative;
+	top: 50px;
+	bottom: 0;
+	left: 50px;
+}
+
+.socialIcons {
+	color: #22313F;
+	font-size: 22px;
+	text-align: right;
+
+}
+
+.socialIcons img {
+	padding-left: 20px;
+}
 
 /*=========Nav Bar==========*/
 
