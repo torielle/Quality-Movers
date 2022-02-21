@@ -232,18 +232,12 @@ img {
 }
 
 .formSection {
-	position: relative;
-	top: 0;
-	bottom: 0;
-	left: 200px;
+	margin-left: 100px;
 }
 
 .contacts {
 	color: #22313F;
-	position: relative;
-	top: 50px;
-	bottom: 0;
-	left: 50px;
+
 }
 
 .socialIcons {
