@@ -148,16 +148,20 @@ img {
 	overflow: hidden;
 }
 .title-text {
-	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3, 23, 39, 0.3));
+	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3, 23, 39, 0.3)) fixed;
 	overflow: auto;
 }
 
 .title-text h2 {
-	font-size: 50px;
 	margin-top: 40px;
 	margin-bottom: 0;
+	padding-bottom: 0;
 	color: white;
 	font-weight: normal;
+}
+
+.title-text h3 {
+	margin-top: 0;
 }
 
 .aboutBox {
@@ -196,15 +200,19 @@ img {
 	line-height: 28px;
 }
 
-.prices p {
-	font-weight: bold;
-	color: #900;
-	text-align: right;
+.prices {
+	margin: 5px auto;
+	padding: .5em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-.prices li {
-	text-align: right;
-	font-weight: 400;
+.priceplus {
+	color: #900;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .prices ul > li, .LdSection ul > li {
@@ -213,14 +221,6 @@ img {
 
 .serviceable li {
 	list-style-type: none;
-	font-weight: bolder;
-	text-align: left;
-	line-height: 36px;
-}
-
-.serviceable li:first-child {
-	padding-bottom: 20px;
-	padding-top: 10px;
 }
 
 .green {
@@ -228,24 +228,14 @@ img {
 	font-weight: bold;
 }
 
-.LdSection {
-	text-align: left;
-	padding-left: 0;
-}
-
 .LdSection p:first-child {
-	text-transform: uppercase;
-	color: #019875;
+	color: #900;
 	font-weight: bold;
-	text-align: center;
-	font-size: large;
 }
 
 .LdSection p:nth-child(2) {
-	color: #900;
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 20px;
+	color: #ffcc00;
+	text-transform: uppercase;
 }
 
 .socialIcons {
@@ -372,7 +362,7 @@ ul#servicesItems > li > img {
 
 /*========= Footer ==========*/
 footer { 
-	padding: 20px 0 25px 0;
+	padding: 10px 0 15px 0;
 	background: #900;
 	text-align: center;
 	color: white;
@@ -391,6 +381,7 @@ footer {
 @media (min-width: 1200px) {
 	
 	h1 { font-size: 130px;}
+	h2 { font-size: 50px;}
 	h3 { font-size: 30px; margin-top: 20px;}
 }
 
@@ -405,17 +396,19 @@ footer {
 
 @media (max-width: 767px) {
 	
-	.navbar { padding-top: 0; background: linear-gradient(to left, rgba(5,70,65,1.00), rgba(35,35,35,1.00)); color: white; text-align: center }
+	.navbar { padding-top: 0; color: white; text-align: center }
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 15px; }
 	.navbar-collapse { border: 0; }
 	.navbar-toggle { border-color: transparent; }
 	ul.navbar-nav li a.btn-link-3 { margin: 10px; }
 }
 
+/*background: linear-gradient(to left, rgba(5,70,65,1.00), rgba(35,35,35,1.00)); */
 /*Font Sizing*/
 @media (max-width: 415px) {
 	
 	h1 { font-size: 70px;}
+	h2 { font-size: 30px;}
 	h3 { font-size: 20px;}
 
 }
