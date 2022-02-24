@@ -73,6 +73,8 @@ img {
 	background: white;
 	color: #22313F;
 	margin-top: 20px;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 #priceSection {
@@ -210,6 +212,11 @@ img {
 	margin: 5px auto;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+#contactSection {
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 .priceplus {
