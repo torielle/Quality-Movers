@@ -121,7 +121,7 @@ img {
 #tipsWrap {
 	background: linear-gradient(rgba(3, 23, 39, 0.8), rgba(3, 23, 39, 0.3));
 	overflow: auto;
-	padding: 20px;
+	padding: 20px 20px 20px 30px;
 }
 
 #contactLogo, #modalLogo {
@@ -129,10 +129,6 @@ img {
 }
 #submitButton {
 	padding-bottom: 30px;
-}
-
-#contactSection  {
-	margin-left: 100px;
 }
 
 /*========= Classes ==========*/
@@ -180,8 +176,7 @@ img {
 }
 
 .tips-section {
-	text-align: justify;
-	padding-left: 50px;
+	text-align: left;
 }
 
 .tips-section > h2 {
@@ -206,6 +201,14 @@ img {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
+	vertical-align: middle;
+}
+
+.contactSection {
+	display: flex;
+	margin: 5px auto;
+	flex-direction: row;
 	flex-wrap: wrap;
 }
 
@@ -241,7 +244,7 @@ img {
 .socialIcons {
 	color: #22313F;
 	font-size: 22px;
-	text-align: right;
+	text-align: left;
 }
 
 .socialIcons a {
